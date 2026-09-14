@@ -1,0 +1,8 @@
+:root {
+  --midnight: #0d1021;
+  --deep-purple: #1a1638;
+  --spirit-blue: #4ea8de;
+  --moon-gold: #eac67a;
+  --ghost-lavender: #b8a1ff;
+  --mist: #e9ecf5;
+    }
