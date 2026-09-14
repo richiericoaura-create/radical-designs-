@@ -1,0 +1,31 @@
+<section class="hero">
+
+    <div class="carousel">
+
+        <div class="slide active">
+            images/featured1.jpg
+            <div class="overlay">
+                <h1>Whispers of the Spirit World</h1>
+                <p>Featured Fanart Collection</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            images/featured2.jpg
+            <div class="overlay">
+                <h1>Moonlit Wanderers</h1>
+                <p>Fan-Made Anime Illustrations</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            images/featured3.jpg
+            <div class="overlay">
+                <h1>Castle Above The Clouds</h1>
+                <p>Community Featured Artists</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
