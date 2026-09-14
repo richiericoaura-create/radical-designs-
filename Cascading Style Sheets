@@ -1,0 +1,11 @@
+nav {
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    background:rgba(10,10,20,.4);
+    backdrop-filter:blur(20px);
+    z-index:999;
+}
