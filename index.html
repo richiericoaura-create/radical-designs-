@@ -86,12 +86,8 @@
         .card-image {
             width: 100%;
             height: 250px;
-            background: linear-gradient(135deg, #6a00ff 0%, #ff006e 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.7);
+            object-fit: cover;
+            display: block;
         }
 
         .card h3 {
@@ -122,13 +118,13 @@
         .slide {
             min-width: 300px;
             height: 300px;
-            background: linear-gradient(135deg, #ff006e 0%, #8338ec 100%);
             border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
             opacity: 0.5;
             transition: opacity 0.5s;
+            object-fit: cover;
         }
 
         .slide.active {
@@ -172,32 +168,32 @@
     <!-- Gallery Section -->
     <section class="gallery">
         <div class="card">
-            <div class="card-image">Featured Artwork #1</div>
+            <img src="images/featured1.jpg" alt="Fanart #1" class="card-image">
             <h3>Fanart #1</h3>
         </div>
 
         <div class="card">
-            <div class="card-image">Featured Artwork #2</div>
+            <img src="images/featured2.jpg" alt="Fanart #2" class="card-image">
             <h3>Fanart #2</h3>
         </div>
 
         <div class="card">
-            <div class="card-image">Featured Artwork #3</div>
+            <img src="images/featured3.jpg" alt="Fanart #3" class="card-image">
             <h3>Fanart #3</h3>
         </div>
 
         <div class="card">
-            <div class="card-image">Featured Artwork #4</div>
+            <img src="images/featured1.jpg" alt="Fanart #4" class="card-image">
             <h3>Fanart #4</h3>
         </div>
 
         <div class="card">
-            <div class="card-image">Featured Artwork #5</div>
+            <img src="images/featured2.jpg" alt="Fanart #5" class="card-image">
             <h3>Fanart #5</h3>
         </div>
 
         <div class="card">
-            <div class="card-image">Featured Artwork #6</div>
+            <img src="images/featured3.jpg" alt="Fanart #6" class="card-image">
             <h3>Fanart #6</h3>
         </div>
     </section>
@@ -206,10 +202,10 @@
     <section class="carousel-section">
         <h2>Featured Carousel</h2>
         <div class="carousel">
-            <div class="slide active">Slide 1</div>
-            <div class="slide">Slide 2</div>
-            <div class="slide">Slide 3</div>
-            <div class="slide">Slide 4</div>
+            <img src="images/featured1.jpg" alt="Slide 1" class="slide active">
+            <img src="images/featured2.jpg" alt="Slide 2" class="slide">
+            <img src="images/featured3.jpg" alt="Slide 3" class="slide">
+            <img src="images/featured1.jpg" alt="Slide 4" class="slide">
         </div>
     </section>
 
