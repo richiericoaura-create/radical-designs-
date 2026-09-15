@@ -3,7 +3,7 @@
     <div class="carousel">
 
         <div class="slide active">
-            images/featured1.jpg
+            <img src="images/1789433278607.png" alt="Fanart Slide 1">
             <div class="overlay">
                 <h1>Whispers of the Spirit World</h1>
                 <p>Featured Fanart Collection</p>
@@ -11,7 +11,7 @@
         </div>
 
         <div class="slide">
-            images/featured2.jpg
+            <img src="images/1789433492040.png" alt="Fanart Slide 2">
             <div class="overlay">
                 <h1>Moonlit Wanderers</h1>
                 <p>Fan-Made Anime Illustrations</p>
@@ -19,10 +19,26 @@
         </div>
 
         <div class="slide">
-            images/featured3.jpg
+            <img src="images/1789433604363.png" alt="Fanart Slide 3">
             <div class="overlay">
                 <h1>Castle Above The Clouds</h1>
                 <p>Community Featured Artists</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/1789434074925.png" alt="Fanart Slide 4">
+            <div class="overlay">
+                <h1>Celestial Dreams</h1>
+                <p>Anime Fantasy Creations</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/1789450903936.png" alt="Fanart Slide 5">
+            <div class="overlay">
+                <h1>Galactic Visions</h1>
+                <p>Radical Fanart Collection</p>
             </div>
         </div>
 
